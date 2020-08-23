@@ -219,16 +219,6 @@ end
     #@admin = admin
 
 
-  #end
-  #def info
-  #  puts <<-EOS
-  #  名前：#{@name}
-  #  年齢：#{@age}
-  #  性別：#{@gender}
-  #  管理者権限：#{@admin}
-  #   EOS
-   #end
-# コードを追加
 #end
 
 user1 = User.new(name: "神里", age: 32, gender: "男", admin: true)
